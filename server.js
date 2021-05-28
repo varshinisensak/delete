@@ -43,7 +43,7 @@ Article.use = connection.define('article', {
 
 Article.use.destroy({
     where: {
-        body: 'varshini'
+        id: 2
     }
 }).then(function (rowDeleted) {
     if (rowDeleted === 2) {
